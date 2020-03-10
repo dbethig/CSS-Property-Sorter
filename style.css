@@ -1,0 +1,38 @@
+:root {
+	--background-color: grey;
+	--reset-colour: #f98383;
+	--submit-colour: #83bdf9;
+}
+.main-wrap textarea {
+	border-radius: 4px;
+	white-space: pre;
+	width: 100%;
+}
+.info-wrap button {
+	border: none;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 1.5em;
+	margin: 4px;
+	min-height: 60px;
+	padding: 0 20px;
+	transition: 0.4s;
+}
+@media screen and (min-width: 1px) {
+	#submit-text {
+		background: linear-gradient(0deg, #3b7dc1, var(--submit-colour));
+		-moz-background: linear-gradient(0deg, #3b7dc1, var(--submit-colour));
+		-webkit-background: linear-gradient(0deg, #3b7dc1, var(--submit-colour));
+		min-width: 250px;
+	}
+}
+.info-wrap {
+	margin: 10px 0;
+}
+#reset-text {
+	background: linear-gradient(0deg, #c13b3b, var(--reset-colour));
+	min-width: 150px;
+}
+.info-wrap button:hover {
+	letter-spacing: 5px;
+}
